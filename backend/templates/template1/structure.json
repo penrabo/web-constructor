@@ -1,0 +1,299 @@
+{
+  "type": "section",
+  "id": "a7b3c9d2",
+  "role": "bricks",
+  "class": "section bricks",
+  "style": null,
+  "content": null,
+  "builderTool": "bricks",
+  "children": [
+    {
+      "type": "h3",
+      "id": "e5f8a1b4",
+      "role": "title",
+      "class": "title",
+      "style": null,
+      "content": "Наша коллекция кроссовок",
+      "children": []
+    },
+    {
+      "type": "p",
+      "id": "c2d6e8f0",
+      "role": "subtitle",
+      "class": "subtitle",
+      "style": null,
+      "content": "Премиальная обувь для спорта и повседневной жизни",
+      "children": []
+    },
+    {
+      "type": "div",
+      "id": "b9a4c7e1",
+      "role": "bricks-inner",
+      "class": "bricks-inner",
+      "style": null,
+      "content": null,
+      "children": [
+        {
+          "type": "div",
+          "id": "card1",
+          "role": "bricks-item",
+          "class": "bricks-item",
+          "style": null,
+          "content": null,
+          "editable": true,
+          "children": [
+            {
+              "type": "h4",
+              "id": "title1",
+              "role": "item-title",
+              "class": "item-title",
+              "style": null,
+              "content": "Nike Air Max",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "subtitle1",
+              "role": "item-subtitle",
+              "class": "item-subtitle",
+              "style": null,
+              "content": "Максимальная амортизация",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "content1",
+              "role": "item-content",
+              "class": "item-content",
+              "style": null,
+              "content": "Легендарная модель с видимой подушкой Air. Идеальны для бега и повседневной носки. Дышащий верх и усиленная поддержка стопы.",
+              "children": []
+            },
+            {
+              "type": "div",
+              "id": "image1",
+              "role": "item-image",
+              "class": "item-image",
+              "style": {
+                "height": "200px",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+              },
+              "content": null,
+              "backgroundImage": "http://localhost:5000/gallery/3d13d940ac69cc2d21172b9b5d593053.jpg",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "card2",
+          "role": "bricks-item",
+          "class": "bricks-item",
+          "style": null,
+          "content": null,
+          "editable": true,
+          "children": [
+            {
+              "type": "h4",
+              "id": "title2",
+              "role": "item-title",
+              "class": "item-title",
+              "style": null,
+              "content": "Adidas Ultraboost",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "subtitle2",
+              "role": "item-subtitle",
+              "class": "item-subtitle",
+              "style": null,
+              "content": "Энергия возврата",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "content2",
+              "role": "item-content",
+              "class": "item-content",
+              "style": null,
+              "content": "Инновационная подошва Boost возвращает энергию при каждом шаге. Превосходный комфорт для долгих пробежек и активного образа жизни.",
+              "children": []
+            },
+            {
+              "type": "div",
+              "id": "image2",
+              "role": "item-image",
+              "class": "item-image",
+              "style": {
+                "height": "200px",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+              },
+              "content": null,
+              "backgroundImage": "http://localhost:5000/gallery/25a097901b6f061965956a34b92d93b3.jpg",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "card3",
+          "role": "bricks-item",
+          "class": "bricks-item",
+          "style": null,
+          "content": null,
+          "editable": true,
+          "children": [
+            {
+              "type": "h4",
+              "id": "title3",
+              "role": "item-title",
+              "class": "item-title",
+              "style": null,
+              "content": "New Balance 574",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "subtitle3",
+              "role": "item-subtitle",
+              "class": "item-subtitle",
+              "style": null,
+              "content": "Классический стиль",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "content3",
+              "role": "item-content",
+              "class": "item-content",
+              "style": null,
+              "content": "Культовая модель с замшевым верхом. Отличается прочностью, удобством и узнаваемым дизайном. Для тех, кто ценит вневременную классику.",
+              "children": []
+            },
+            {
+              "type": "div",
+              "id": "image3",
+              "role": "item-image",
+              "class": "item-image",
+              "style": {
+                "height": "200px",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+              },
+              "content": null,
+              "backgroundImage": "http://localhost:5000/gallery/99cdaa6a94aba57e1bad33df30b0ed13.jpg",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "card4",
+          "role": "bricks-item",
+          "class": "bricks-item",
+          "style": null,
+          "content": null,
+          "editable": true,
+          "children": [
+            {
+              "type": "h4",
+              "id": "title4",
+              "role": "item-title",
+              "class": "item-title",
+              "style": null,
+              "content": "Asics Gel-Kayano",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "subtitle4",
+              "role": "item-subtitle",
+              "class": "item-subtitle",
+              "style": null,
+              "content": "Стабильность и поддержка",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "content4",
+              "role": "item-content",
+              "class": "item-content",
+              "style": null,
+              "content": "Технология Gel снижает ударные нагрузки. Рекомендованы для бега по асфальту и длительных тренировок. Защита суставов на максимуме.",
+              "children": []
+            },
+            {
+              "type": "div",
+              "id": "image4",
+              "role": "item-image",
+              "class": "item-image",
+              "style": {
+                "height": "200px",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+              },
+              "content": null,
+              "backgroundImage": "http://localhost:5000/gallery/50026a260798b2f109e4435a3cb32715.jpg",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "card5",
+          "role": "bricks-item",
+          "class": "bricks-item",
+          "style": null,
+          "content": null,
+          "editable": true,
+          "children": [
+            {
+              "type": "h4",
+              "id": "title5",
+              "role": "item-title",
+              "class": "item-title",
+              "style": null,
+              "content": "Puma RS-X",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "subtitle5",
+              "role": "item-subtitle",
+              "class": "item-subtitle",
+              "style": null,
+              "content": "Агрессивный дизайн",
+              "children": []
+            },
+            {
+              "type": "p",
+              "id": "content5",
+              "role": "item-content",
+              "class": "item-content",
+              "style": null,
+              "content": "Футуристический образ и максимальный комфорт. Подойдут для повседневной носки и выделят вас из толпы. Лёгкие и прочные материалы.",
+              "children": []
+            },
+            {
+              "type": "div",
+              "id": "image5",
+              "role": "item-image",
+              "class": "item-image",
+              "style": {
+                "height": "200px",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+              },
+              "content": null,
+              "backgroundImage": "http://localhost:5000/gallery/a4cbe1f9db014aa389b98af1a0e50d27.jpg",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

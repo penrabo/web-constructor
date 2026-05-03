@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* В src/index.css или App.css */
+.edit-mode {
+  position: relative;
+  min-height: 100px;
+}
+
+.edit-mode > * {
+  position: relative;
+}
+
+.view-mode .edit-icons {
+  display: none;
+}
+
+/* Стили для элементов в режиме редактирования */
+.edit-mode [data-editable="true"] {
+  border: 1px dashed #ccc;
+  padding: 5px;
+  margin: 2px;
+}
+
+.edit-mode [data-editable="true"]:hover {
+  border-color: #1976d2;
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+/* Убедись, что контейнер имеет относительное позиционирование */
+.constructor-canvas {
+  position: relative;
+  min-height: 100px;
+  padding: 20px;
+  border: 1px dashed #eee;
+}
+
+/* Стили для секции с bricks */
+.section.bricks {
+  position: relative !important;
+  min-height: 50px;
+  padding-top: 30px; /* Место для иконок */
+}
+
+/* В режиме редактирования добавляем подсветку */
+.edit-mode .section.bricks {
+  border: 2px dashed #1976d2;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+}
