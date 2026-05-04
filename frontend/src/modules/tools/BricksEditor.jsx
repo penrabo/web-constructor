@@ -17,6 +17,7 @@ import {useStore} from '../../store/useStore';
 import { findElementById } from '../../utils/findElementById';
 import { findInStructure } from '../../utils/findInStructure';
 import { deleteElement } from '../../utils/deleteElement';
+import { moveElement } from '../../utils/moveElement';
 import { BLOCK_TEMPLATES } from '../../templates/blockTemplates.js';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
@@ -65,41 +66,6 @@ const BricksEditor = ({isOpen}) => {
 
     if (!isOpen) return null;
 
-    function moveCard(index, direction) {
-        console.log('editingElementId:', editingElementId);
-        const copy = JSON.parse(JSON.stringify(siteStructure));
-        const bricks = findElementById(copy, editingElementId);
-
-        // Находим bricks-inner внутри bricks рекурсивно
-        function findBricksInner(parentElement) {
-            let bricksInner;
-            for (let i = 0; i < parentElement.children.length; i++) {
-                if (parentElement.children[i]?.class === 'bricks-inner') {
-                    bricksInner = parentElement.children[i];
-                    return bricksInner;
-                } else {
-                    bricksInner = findBricksInner(parentElement.children[i]);
-                }
-            }
-            return bricksInner;
-        }
-
-        const bricksInner = findBricksInner(bricks);
-
-        //const bricksInner = bricks?.children?.find(child => child.class === 'bricks-inner');
-
-        if (direction === "up" && bricksInner?.children && index > 0) {
-            [bricksInner.children[index - 1], bricksInner.children[index]] =
-                [bricksInner.children[index], bricksInner.children[index - 1]];
-        }
-
-        if (direction === "down" && bricksInner?.children && index < bricksInner.children.length - 1) {
-            [bricksInner.children[index + 1], bricksInner.children[index]] =
-                [bricksInner.children[index], bricksInner.children[index + 1]];
-        }
-        setSiteStructure(copy);
-    }
-
     return (
         <Dialog
             open={isOpen}
@@ -122,7 +88,7 @@ const BricksEditor = ({isOpen}) => {
                                     <Box><IconButton
                                         edge="end"
                                         disabled={index === bricksItems.length - 1}
-                                        onClick={() => moveCard(index, "down")}
+                                        onClick={() => moveElement(editingElementId, index, 'down', 'bricks-inner')}
                                     >
                                         <KeyboardArrowDownIcon />
                                     </IconButton>
@@ -130,7 +96,7 @@ const BricksEditor = ({isOpen}) => {
                                         <IconButton
                                             edge="end"
                                             disabled={index === 0}
-                                            onClick={() => moveCard(index, "up")}
+                                            onClick={() => moveElement(editingElementId, index, 'up', 'bricks-inner')}
                                         >
                                             <KeyboardArrowUpIcon />
                                         </IconButton>

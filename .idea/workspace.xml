@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a5ae83-b1ef-4957-9232-6457f3846272" name="Changes" comment="Изменена логика структуры сайтов, теперь это всегда объект, а не массив объектов.">
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/deleteElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/moveElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/modules/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/modules/Header.jsx" afterDir="false" />
+    <list default="true" id="03a5ae83-b1ef-4957-9232-6457f3846272" name="Changes" comment="Добавлена отдельная функция для удаления элемента из структуры сайта">
       <change beforePath="$PROJECT_DIR$/frontend/src/modules/tools/BricksEditor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/modules/tools/BricksEditor.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +78,7 @@
       <workItem from="1771618448542" duration="50155000" />
       <workItem from="1775753187833" duration="46802000" />
       <workItem from="1777284163294" duration="1142000" />
-      <workItem from="1777317031268" duration="19827000" />
+      <workItem from="1777317031268" duration="20040000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлен редактор bricks">
       <option name="closed" value="true" />
@@ -109,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777856432178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлена отдельная функция для удаления элемента из структуры сайта">
+      <option name="closed" value="true" />
+      <created>1777933501130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777933501130</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлен редактор bricks" />
     <MESSAGE value="Изменена логика структуры сайтов, теперь это всегда объект, а не массив объектов." />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменена логика структуры сайтов, теперь это всегда объект, а не массив объектов." />
+    <MESSAGE value="Добавлена отдельная функция для удаления элемента из структуры сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена отдельная функция для удаления элемента из структуры сайта" />
   </component>
 </project>
