@@ -80,7 +80,7 @@ const SiteRender = () => {
         );
     };
 
-    return <>{siteStructure.map((item) => buildSite(item))}</>;
+    return <>{buildSite(siteStructure)}</>;
 };
 
 export default SiteRender;

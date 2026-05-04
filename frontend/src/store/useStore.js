@@ -2,7 +2,7 @@ import { create } from 'zustand';
 
 const useStore = create((set) => ({
     // Структура сайта
-    siteStructure: [],
+    siteStructure: null,
 
     gallery: [],
 

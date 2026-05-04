@@ -13,7 +13,7 @@ const Header = () => {
             const templateData = await api.getTemplate('template1');
             console.log('Загружен шаблон 1:', templateData);
             // Если приходит массив - кладем как есть, если объект - заворачиваем в массив
-            setSiteStructure(Array.isArray(templateData) ? templateData : [templateData]);
+            setSiteStructure(Array.isArray(templateData) ? templateData : templateData);
         } catch (error) {
             console.error('Ошибка загрузки шаблона 1:', error);
         }
@@ -23,7 +23,7 @@ const Header = () => {
         try {
             const templateData = await api.getTemplate('template2');
             console.log('Загружен шаблон 2:', templateData);
-            setSiteStructure(Array.isArray(templateData) ? templateData : [templateData]);
+            setSiteStructure(Array.isArray(templateData) ? templateData : templateData);
         } catch (error) {
             console.error('Ошибка загрузки шаблона 2:', error);
         }
