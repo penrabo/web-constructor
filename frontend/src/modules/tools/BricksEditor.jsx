@@ -16,6 +16,7 @@ import AddIcon from '@mui/icons-material/Add';
 import {useStore} from '../../store/useStore';
 import { findElementById } from '../../utils/findElementById';
 import { findInStructure } from '../../utils/findInStructure';
+import { deleteElement } from '../../utils/deleteElement';
 import { BLOCK_TEMPLATES } from '../../templates/blockTemplates.js';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
@@ -153,7 +154,7 @@ const BricksEditor = ({isOpen}) => {
                                         </IconButton>
                                         <IconButton
                                             edge="end"
-                                            onClick={() => handleEditIconClick('deleteBrickCard', card.id)}
+                                            onClick={() => deleteElement(card.id)}
                                         >
                                             <DeleteIcon/>
                                         </IconButton>

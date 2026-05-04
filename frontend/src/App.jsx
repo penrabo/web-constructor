@@ -1,14 +1,37 @@
+import { useEffect } from 'react';
 import { Container, Box } from '@mui/material';
 import Header from './modules/Header';
 import SiteRender from './modules/SiteRender.jsx';
-import BricksEditor from './modules/tools/BricksEditor';
-import BricksTitleEditor from './modules/tools/BricksTitleEditor';
-//import BricksContentEditor from './modules/tools/BricksContentEditor';
-//import BricksImageEditor from './modules/tools/BricksImageEditor';
-import DeleteBrickCard from './modules/tools/DeleteBrickCard';
 import ToolLauncher from "./modules/ToolLauncher.jsx";
+import DeleteBrickCard from './modules/tools/DeleteBrickCard';
+import { useStore } from './store/useStore';
+import { api } from './api/client';
 
 function App() {
+    const setSiteStructure = useStore((state) => state.setSiteStructure);
+    const setGallery = useStore((state) => state.setGallery);
+
+    useEffect(() => {
+        const loadInitialData = async () => {
+            try {
+                const [galleryData, templateData] = await Promise.all([
+                    api.getGallery(),
+                    api.getTemplate('template1')
+                ]);
+
+                console.log('Загружена галерея: ', galleryData);
+                console.log('Загружен шаблон 1: ', templateData);
+
+                setGallery(galleryData);
+                setSiteStructure(templateData);
+            } catch (error) {
+                console.error('Ошибка загрузки начальных данных: ', error);
+            }
+        };
+
+        loadInitialData();
+    }, [setGallery, setSiteStructure]);
+
     return (
         <>
             <Header />
@@ -17,15 +40,9 @@ function App() {
                     <SiteRender />
                 </Box>
 
-                {/* Панель инструментов */}
                 <Box sx={{ mt: 4 }}>
                     <ToolLauncher />
-
                     <DeleteBrickCard />
-
-                    {/*<BricksTitleEditor /> <BricksContentEditor />
-                    <BricksImageEditor />
-                    */}
                 </Box>
             </Container>
         </>
