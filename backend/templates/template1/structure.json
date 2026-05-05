@@ -43,7 +43,7 @@
           "children": [
             {
               "type": "div",
-              "id": "card1",
+              "id": "x1y2z3w4",
               "role": "bricks-item",
               "class": "bricks-item",
               "style": null,
@@ -52,7 +52,7 @@
               "children": [
                 {
                   "type": "h4",
-                  "id": "title1",
+                  "id": "p5q6r7s8",
                   "role": "item-title",
                   "class": "item-title",
                   "style": null,
@@ -61,7 +61,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "subtitle1",
+                  "id": "t9u0v1w2",
                   "role": "item-subtitle",
                   "class": "item-subtitle",
                   "style": null,
@@ -70,7 +70,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "content1",
+                  "id": "x3y4z5a6",
                   "role": "item-content",
                   "class": "item-content",
                   "style": null,
@@ -79,7 +79,7 @@
                 },
                 {
                   "type": "div",
-                  "id": "image1",
+                  "id": "b7c8d9e0",
                   "role": "item-image",
                   "class": "item-image",
                   "style": {
@@ -95,7 +95,7 @@
             },
             {
               "type": "div",
-              "id": "card2",
+              "id": "f1g2h3i4",
               "role": "bricks-item",
               "class": "bricks-item",
               "style": null,
@@ -104,7 +104,7 @@
               "children": [
                 {
                   "type": "h4",
-                  "id": "title2",
+                  "id": "j5k6l7m8",
                   "role": "item-title",
                   "class": "item-title",
                   "style": null,
@@ -113,7 +113,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "subtitle2",
+                  "id": "n9o0p1q2",
                   "role": "item-subtitle",
                   "class": "item-subtitle",
                   "style": null,
@@ -122,7 +122,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "content2",
+                  "id": "r3s4t5u6",
                   "role": "item-content",
                   "class": "item-content",
                   "style": null,
@@ -131,7 +131,7 @@
                 },
                 {
                   "type": "div",
-                  "id": "image2",
+                  "id": "v7w8x9y0",
                   "role": "item-image",
                   "class": "item-image",
                   "style": {
@@ -147,7 +147,7 @@
             },
             {
               "type": "div",
-              "id": "card3",
+              "id": "z1a2b3c4",
               "role": "bricks-item",
               "class": "bricks-item",
               "style": null,
@@ -156,7 +156,7 @@
               "children": [
                 {
                   "type": "h4",
-                  "id": "title3",
+                  "id": "d5e6f7g8",
                   "role": "item-title",
                   "class": "item-title",
                   "style": null,
@@ -165,7 +165,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "subtitle3",
+                  "id": "h9i0j1k2",
                   "role": "item-subtitle",
                   "class": "item-subtitle",
                   "style": null,
@@ -174,7 +174,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "content3",
+                  "id": "l3m4n5o6",
                   "role": "item-content",
                   "class": "item-content",
                   "style": null,
@@ -183,7 +183,7 @@
                 },
                 {
                   "type": "div",
-                  "id": "image3",
+                  "id": "p7q8r9s0",
                   "role": "item-image",
                   "class": "item-image",
                   "style": {
@@ -199,7 +199,7 @@
             },
             {
               "type": "div",
-              "id": "card4",
+              "id": "t1u2v3w4",
               "role": "bricks-item",
               "class": "bricks-item",
               "style": null,
@@ -208,7 +208,7 @@
               "children": [
                 {
                   "type": "h4",
-                  "id": "title4",
+                  "id": "x5y6z7a8",
                   "role": "item-title",
                   "class": "item-title",
                   "style": null,
@@ -217,7 +217,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "subtitle4",
+                  "id": "b9c0d1e2",
                   "role": "item-subtitle",
                   "class": "item-subtitle",
                   "style": null,
@@ -226,7 +226,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "content4",
+                  "id": "f3g4h5i6",
                   "role": "item-content",
                   "class": "item-content",
                   "style": null,
@@ -235,7 +235,7 @@
                 },
                 {
                   "type": "div",
-                  "id": "image4",
+                  "id": "j7k8l9m0",
                   "role": "item-image",
                   "class": "item-image",
                   "style": {
@@ -251,7 +251,7 @@
             },
             {
               "type": "div",
-              "id": "card5",
+              "id": "n1o2p3q4",
               "role": "bricks-item",
               "class": "bricks-item",
               "style": null,
@@ -260,7 +260,7 @@
               "children": [
                 {
                   "type": "h4",
-                  "id": "title5",
+                  "id": "r5s6t7u8",
                   "role": "item-title",
                   "class": "item-title",
                   "style": null,
@@ -269,7 +269,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "subtitle5",
+                  "id": "v9w0x1y2",
                   "role": "item-subtitle",
                   "class": "item-subtitle",
                   "style": null,
@@ -278,7 +278,7 @@
                 },
                 {
                   "type": "p",
-                  "id": "content5",
+                  "id": "z3a4b5c6",
                   "role": "item-content",
                   "class": "item-content",
                   "style": null,
@@ -287,7 +287,7 @@
                 },
                 {
                   "type": "div",
-                  "id": "image5",
+                  "id": "d7e8f9g0",
                   "role": "item-image",
                   "class": "item-image",
                   "style": {
@@ -298,6 +298,345 @@
                   "content": null,
                   "backgroundImage": "http://localhost:5000/gallery/a4cbe1f9db014aa389b98af1a0e50d27.jpg",
                   "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "h1i2j3k4",
+      "role": "gallery",
+      "class": "section gallery",
+      "style": null,
+      "content": null,
+      "builderTool": "gallery",
+      "children": [
+        {
+          "type": "div",
+          "id": "t3u4v5w6",
+          "role": "gallery-inner",
+          "class": "gallery-inner",
+          "style": null,
+          "content": null,
+          "children": [
+            {
+              "type": "div",
+              "id": "x7y8z9a0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "b1c2d3e4",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/3d13d940ac69cc2d21172b9b5d593053.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "f5g6h7i8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "j9k0l1m2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Nike Air Max",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "n3o4p5q6",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Максимальная амортизация",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "r7s8t9u0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "v1w2x3y4",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/25a097901b6f061965956a34b92d93b3.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "z5a6b7c8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "d9e0f1g2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Adidas Ultraboost",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "h3i4j5k6",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Энергия возврата",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "l7m8n9o0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "p1q2r3s4",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/99cdaa6a94aba57e1bad33df30b0ed13.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "t5u6v7w8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "x9y0z1a2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "New Balance 574",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "b3c4d5e6",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Классический стиль",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "f7g8h9i0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "j1k2l3m4",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/50026a260798b2f109e4435a3cb32715.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "n5o6p7q8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "r9s0t1u2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Asics Gel-Kayano",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "v3w4x5y6",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Стабильность и поддержка",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "z7a8b9c0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "d1e2f3g4",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/a4cbe1f9db014aa389b98af1a0e50d27.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "h5i6j7k8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "l9m0n1o2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Puma RS-X",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "p3q4r5s6",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Агрессивный дизайн",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "t7u8v9w0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "x1y2z3a4",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/3d13d940ac69cc2d21172b9b5d593053.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "b5c6d7e8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "f9g0h1i2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Limited Edition",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "j3k4l5m6",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Эксклюзивная коллекция",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }

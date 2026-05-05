@@ -11,7 +11,6 @@ const ToolActivator = ({ builderTool, elementId }) => {
         console.log('Добавляем инструмент:', builderTool);
         addActiveTool(builderTool);
         setEditingElementId(elementId);
-        console.log('После добавления activeTools:', useStore.getState().activeTools);
     };
 
     return (

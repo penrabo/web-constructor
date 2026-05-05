@@ -1,14 +1,11 @@
-// frontend/src/modules/tools/BricksTitleEditor.jsx
+// frontend/src/modules/tools/GalleryTitleEditor.jsx
 import React from 'react';
-import { useStore } from '../../store/useStore';
-import TextEditor from './features/TextEditor';
+import { useStore } from '../../../store/useStore.js';
+import TextEditor from '../features/TextEditor.jsx';
 
-const BricksTitleEditor = () => {
-    const activeTools = useStore((state) => state.activeTools);
+const BricksTitleEditor = ({isOpen}) => {
     const editingSubElementId = useStore((state) => state.editingSubElementId);
     const removeActiveTool = useStore((state) => state.removeActiveTool);
-
-    const isOpen = activeTools.includes('bricksTitleEditor');
 
     return (
         <TextEditor

@@ -3,7 +3,6 @@ import { Container, Box } from '@mui/material';
 import Header from './modules/Header';
 import SiteRender from './modules/SiteRender.jsx';
 import ToolLauncher from "./modules/ToolLauncher.jsx";
-import DeleteBrickCard from './modules/tools/DeleteBrickCard';
 import { useStore } from './store/useStore';
 import { api } from './api/client';
 
@@ -42,7 +41,6 @@ function App() {
 
                 <Box sx={{ mt: 4 }}>
                     <ToolLauncher />
-                    <DeleteBrickCard />
                 </Box>
             </Container>
         </>

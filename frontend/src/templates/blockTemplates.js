@@ -50,5 +50,58 @@ export const BLOCK_TEMPLATES = {
                 "children": []
             }
         ]
+    },
+    galleryItem: {
+        "type": "div",
+        "id": "newGalleryItem",
+        "role": "gallery-item",
+        "class": "gallery-item",
+        "style": null,
+        "content": null,
+        "editable": true,
+        "children": [
+            {
+                "type": "div",
+                "id": "newGalleryImage",
+                "role": "gallery-item-image",
+                "class": "gallery-item-image",
+                "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                },
+                "content": null,
+                "backgroundImage": "",
+                "children": [
+                    {
+                        "type": "div",
+                        "id": "newGalleryOverlay",
+                        "role": "gallery-item-overlay",
+                        "class": "gallery-item-overlay",
+                        "style": null,
+                        "content": null,
+                        "children": [
+                            {
+                                "type": "h3",
+                                "id": "newGalleryTitle",
+                                "role": "gallery-item-title",
+                                "class": "gallery-item-title",
+                                "style": null,
+                                "content": "Название работы",
+                                "children": []
+                            },
+                            {
+                                "type": "p",
+                                "id": "newGalleryDescription",
+                                "role": "gallery-item-description",
+                                "class": "gallery-item-description",
+                                "style": null,
+                                "content": "Описание проекта",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 };

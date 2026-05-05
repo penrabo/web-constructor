@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-const useStore = create((set) => ({
+const useStore = create((set, get) => ({
     // Структура сайта
     siteStructure: null,
 
@@ -22,10 +22,12 @@ const useStore = create((set) => ({
     setGallery: (newGallery) => set({ gallery: newGallery }),
 
     // Методы для работы с инструментами
-    addActiveTool: (toolName) =>
+    addActiveTool: (toolName) => {
         set((state) => ({
             activeTools: [...state.activeTools, toolName]
-        })),
+        }));
+        console.log('После добавления activeTools:', get().activeTools);
+    },
 
     removeActiveTool: (toolName) =>
         set((state) => ({

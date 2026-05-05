@@ -1,14 +1,11 @@
-// frontend/src/modules/tools/BricksImageEditor.jsx
+// frontend/src/modules/tools/GalleryImageEditor.jsx
 import React from 'react';
-import { useStore } from '../../store/useStore';
-import ImageEditor from './features/ImageEditor';
+import { useStore } from '../../../store/useStore.js';
+import ImageEditor from '../features/ImageEditor.jsx';
 
-const BricksImageEditor = () => {
-    const activeTools = useStore((state) => state.activeTools);
+const BricksImageEditor = ({isOpen}) => {
     const editingSubElementId = useStore((state) => state.editingSubElementId);
     const removeActiveTool = useStore((state) => state.removeActiveTool);
-
-    const isOpen = activeTools.includes('bricksImageEditor');
 
     return (
         <ImageEditor
