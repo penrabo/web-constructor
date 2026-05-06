@@ -177,3 +177,122 @@ body {
     padding: 12px;
   }
 }
+
+/* tableEditor */
+/* ========== Стили для таблицы ========== */
+
+/* Секция таблицы */
+.section.table {
+  position: relative;
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+/* Контейнер таблицы */
+.table-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Заголовок таблицы */
+.table-header {
+  display: flex;
+  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid #0d47a1;
+}
+
+/* Ячейка заголовка */
+.table-header-cell {
+  padding: 16px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Строка таблицы */
+.table-item {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.table-item:hover {
+  background-color: #f5f9ff;
+}
+
+/* Ячейка строки */
+.table-item-cell {
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Чётные строки — чуть темнее для читаемости */
+.table-item:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.table-item:nth-child(even):hover {
+  background-color: #f0f5fb;
+}
+
+/* Первая колонка (название) */
+.table-item-cell:first-child,
+.table-header-cell:first-child {
+  font-weight: 500;
+  color: #1976d2;
+}
+
+/* Последняя колонка (цена) */
+.table-item-cell:last-child,
+.table-header-cell:last-child {
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+/* Для заголовка последней колонки — белый цвет */
+.table-header-cell:last-child {
+  color: white;
+}
+
+/* Адаптивность для планшетов */
+@media (max-width: 768px) {
+  .table-inner {
+    max-width: 100%;
+    margin: 0 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+
+  .table-header-cell,
+  .table-item-cell {
+    padding: 12px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Адаптивность для телефонов */
+@media (max-width: 480px) {
+  .section.table {
+    padding: 40px 0;
+  }
+
+  .table-header-cell,
+  .table-item-cell {
+    padding: 10px 8px;
+    font-size: 0.75rem;
+  }
+
+  /* Перенос слов в ячейках */
+  .table-item-cell {
+    word-break: break-word;
+  }
+}

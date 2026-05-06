@@ -103,5 +103,43 @@ export const BLOCK_TEMPLATES = {
                 ]
             }
         ]
+    },
+    tableItem: {
+        "type": "div",
+        "id": "newTableItem",
+        "role": "table-item",
+        "class": "table-item",
+        "style": null,
+        "content": null,
+        "editable": true,
+        "children": [
+            {
+                "type": "div",
+                "id": "newTableCell1",
+                "role": "table-item-cell",
+                "class": "table-item-cell",
+                "style": { "width": "20%" },
+                "content": "Новый товар",
+                "children": []
+            },
+            {
+                "type": "div",
+                "id": "newTableCell2",
+                "role": "table-item-cell",
+                "class": "table-item-cell",
+                "style": { "width": "65%" },
+                "content": "Описание товара",
+                "children": []
+            },
+            {
+                "type": "div",
+                "id": "newTableCell3",
+                "role": "table-item-cell",
+                "class": "table-item-cell",
+                "style": { "width": "15%" },
+                "content": "0 ₽",
+                "children": []
+            }
+        ]
     }
 };

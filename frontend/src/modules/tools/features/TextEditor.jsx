@@ -19,20 +19,26 @@ const TextEditor = ({ isOpen, elementId, targetRole, dialogTitle, isMultiline, o
     const setSiteStructure = useStore((state) => state.setSiteStructure);
 
     const loadContent = () => {
-        const parent = findElementById(siteStructure, elementId);
-        if (!parent) return '';
+        const target = findElementById(siteStructure, elementId);
+        if (!target) return '';
 
-        const target = findInStructure(parent, (item) => item.role === targetRole);
+        if (targetRole) {
+            const nested = findInStructure(target, (item) => item.role === targetRole);
+            return nested?.content || '';
+        }
+
         return target?.content || '';
     };
 
     const updateContent = (newContent) => {
         const newStructure = JSON.parse(JSON.stringify(siteStructure));
-        const parent = findElementById(newStructure, elementId);
-        if (!parent) return;
+        const target = findElementById(newStructure, elementId);
+        if (!target) return;
 
-        const target = findInStructure(parent, (item) => item.role === targetRole);
-        if (target) {
+        if (targetRole) {
+            const nested = findInStructure(target, (item) => item.role === targetRole);
+            if (nested) nested.content = newContent;
+        } else {
             target.content = newContent;
         }
 
