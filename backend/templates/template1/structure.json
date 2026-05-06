@@ -655,43 +655,6 @@
       "children": [
         {
           "type": "div",
-          "id": "jN1bP3wC9",
-          "role": "table-header",
-          "class": "table-header",
-          "style": null,
-          "content": null,
-          "children": [
-            {
-              "type": "div",
-              "id": "kL5cR7zD2",
-              "role": "table-header-cell",
-              "class": "table-header-cell",
-              "style": { "width": "20%" },
-              "content": "Название",
-              "children": []
-            },
-            {
-              "type": "div",
-              "id": "lF8dG2qA3",
-              "role": "table-header-cell",
-              "class": "table-header-cell",
-              "style": { "width": "65%" },
-              "content": "Описание",
-              "children": []
-            },
-            {
-              "type": "div",
-              "id": "mX6eS9uM0",
-              "role": "table-header-cell",
-              "class": "table-header-cell",
-              "style": { "width": "15%" },
-              "content": "Цена",
-              "children": []
-            }
-          ]
-        },
-        {
-          "type": "div",
           "id": "nH9fT4vK1",
           "role": "table-inner",
           "class": "table-inner",

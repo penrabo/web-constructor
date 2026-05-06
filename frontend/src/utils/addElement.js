@@ -7,6 +7,14 @@ const generateRandomId = () => {
     return Math.random().toString(36).substring(2, 10);
 };
 
+const generateIdsRecursively = (element) => {
+    element.id = generateRandomId();
+
+    if (element.children && Array.isArray(element.children)) {
+        element.children.forEach(child => generateIdsRecursively(child));
+    }
+};
+
 /**
  * Добавляет новый элемент в структуру
  * @param {string} parentId - ID родительского элемента
@@ -41,7 +49,7 @@ export const addElement = (parentId, blockName, targetRole = null) => {
     if (!template) return;
 
     const newElement = JSON.parse(JSON.stringify(template));
-    newElement.id = generateRandomId();
+    generateIdsRecursively(newElement);
 
     container.children.push(newElement);
     setSiteStructure(copy);
