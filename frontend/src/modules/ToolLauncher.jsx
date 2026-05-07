@@ -10,6 +10,9 @@ import GalleryImageEditor from "./tools/gallery/GalleryImageEditor.jsx";
 import GallerySubtitleEditor from "./tools/gallery/GallerySubtitleEditor.jsx";
 import TableEditor from "./tools/table/TableEditor.jsx";
 import TableCellEditor from "./tools/table/TableCellEditor.jsx";
+import TextualEditor from "./tools/textual/TextualEditor.jsx";
+import TextualTitleEditor from "./tools/textual/TextualTitleEditor.jsx";
+import TextualTextEditor from "./tools/textual/TextualTextEditor.jsx";
 
 const ToolLauncher = () => {
     const activeTools = useStore((state) => state.activeTools);
@@ -23,6 +26,9 @@ const ToolLauncher = () => {
     const isOpenGalleryImageEditor = activeTools.includes('galleryImageEditor');
     const isOpenTable = activeTools.includes('table');
     const isOpenTableCellEditor = activeTools.includes('tableCellEditor');
+    const isOpenTextual = activeTools.includes('textual');
+    const isOpenTextualTitleEditor = activeTools.includes('textualTitleEditor');
+    const isOpenTextualTextEditor = activeTools.includes('textualTextEditor');
 
     return (
         <>
@@ -36,6 +42,9 @@ const ToolLauncher = () => {
             <GalleryImageEditor isOpen={isOpenGalleryImageEditor} />
             <TableEditor isOpen={isOpenTable} />
             <TableCellEditor isOpen={isOpenTableCellEditor} />
+            <TextualEditor isOpen={isOpenTextual} />
+            <TextualTitleEditor isOpen={isOpenTextualTitleEditor} />
+            <TextualTextEditor isOpen={isOpenTextualTextEditor} />
         </>
     );
 };

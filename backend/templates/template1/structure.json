@@ -8,6 +8,35 @@
   "children": [
     {
       "type": "section",
+      "id": "hG7jD3sL9",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "aF4rB8zX2",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Наша коллекция",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "cV6tN1wY5",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Премиальная обувь для спорта и жизни",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
       "id": "rT4nB7vC1",
       "role": "bricks",
       "class": "section bricks",
@@ -15,24 +44,6 @@
       "content": null,
       "builderTool": "bricks",
       "children": [
-        {
-          "type": "h3",
-          "id": "wF3jD8aL9",
-          "role": "title",
-          "class": "title",
-          "style": null,
-          "content": "Наша коллекция кроссовок",
-          "children": []
-        },
-        {
-          "type": "p",
-          "id": "gH5sR2eM6",
-          "role": "subtitle",
-          "class": "subtitle",
-          "style": null,
-          "content": "Премиальная обувь для спорта и повседневной жизни",
-          "children": []
-        },
         {
           "type": "div",
           "id": "uY7tA1zC4",
@@ -302,6 +313,35 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "bD1pL9zW5",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "eQ8cM2vR7",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Галерея хитов",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "gS3nX6tK4",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Лучшие модели в каждом кадре",
+          "children": []
         }
       ]
     },
@@ -646,6 +686,35 @@
     },
     {
       "type": "section",
+      "id": "jK5mN2rY9",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "lX8qT3vZ1",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Прайс-лист",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "nF2wB6cA4",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Актуальные цены на топ-модели",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
       "id": "iM4aO8vY6",
       "role": "table",
       "class": "section table",
@@ -776,6 +845,44 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "pT7rH2wM9",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "uV5dL4cN8",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Почему выбирают нас",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "xG2fQ6sZ3",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Качество, проверенное временем",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "yH9kR1tM4",
+          "role": "text",
+          "class": "text",
+          "style": null,
+          "content": "Мы предлагаем только оригинальную продукцию от ведущих мировых брендов. Каждая пара проходит многоступенчатый контроль качества, а наши консультанты помогут подобрать идеальный размер и модель под любой стиль жизни. Доставка по всей стране и примерка перед покупкой — забота о вашем комфорте.",
+          "children": []
         }
       ]
     }
