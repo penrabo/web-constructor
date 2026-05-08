@@ -9,6 +9,20 @@ export const BLOCK_TEMPLATES = {
         "editable": true,
         "children": [
             {
+                "type": "div",
+                "id": "newImage",
+                "role": "item-image",
+                "class": "item-image",
+                "style": {
+                    "height": "200px",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                },
+                "content": null,
+                "backgroundImage": "",
+                "children": []
+            },
+            {
                 "type": "h4",
                 "id": "newTitle",
                 "role": "item-title",
@@ -33,20 +47,6 @@ export const BLOCK_TEMPLATES = {
                 "class": "item-content",
                 "style": null,
                 "content": "Текст текст текст",
-                "children": []
-            },
-            {
-                "type": "div",
-                "id": "newImage",
-                "role": "item-image",
-                "class": "item-image",
-                "style": {
-                    "height": "200px",
-                    "backgroundSize": "cover",
-                    "backgroundPosition": "center"
-                },
-                "content": null,
-                "backgroundImage": "",
                 "children": []
             }
         ]
@@ -141,5 +141,32 @@ export const BLOCK_TEMPLATES = {
                 "children": []
             }
         ]
+    },
+    textualTitle: {
+        "type": "h3",
+        "id": "newTextualTitle",
+        "role": "title",
+        "class": "title",
+        "style": null,
+        "content": "Новый заголовок",
+        "children": []
+    },
+    textualSubtitle: {
+        "type": "p",
+        "id": "newTextualSubtitle",
+        "role": "title",
+        "class": "title",
+        "style": null,
+        "content": "Новый подзаголовок",
+        "children": []
+    },
+    textualText: {
+        "type": "p",
+        "id": "newTextualText",
+        "role": "text",
+        "class": "text",
+        "style": null,
+        "content": "Новый текст. Здесь может быть довольно длинное содержание, которое будет переноситься на несколько строк.",
+        "children": []
     }
 };

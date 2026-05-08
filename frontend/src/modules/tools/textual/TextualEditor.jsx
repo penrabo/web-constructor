@@ -1,5 +1,5 @@
 // frontend/src/modules/tools/TextualEditor.jsx
-import React from 'react';
+import React, { useState } from 'react';
 import {
     Dialog,
     DialogTitle,
@@ -8,15 +8,19 @@ import {
     ListItem,
     Box,
     IconButton,
-    Typography
+    Typography,
+    Select,
+    MenuItem,
+    FormControl
 } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
+import AddIcon from '@mui/icons-material/Add';
 import {useStore} from '../../../store/useStore.js';
 import { findElementById } from '../../../utils/findElementById.js';
 import { moveElement } from '../../../utils/moveElement.js';
+import { addElement } from '../../../utils/addElement.js';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import {findInStructure} from "../../../utils/findInStructure.js";
 
 const TextualEditor = ({isOpen}) => {
     const editingElementId = useStore((state) => state.editingElementId);
@@ -25,19 +29,24 @@ const TextualEditor = ({isOpen}) => {
     const removeActiveTool = useStore((state) => state.removeActiveTool);
     const siteStructure = useStore((state) => state.siteStructure);
 
+    const [selectedBlock, setSelectedBlock] = useState('textualText');
+
     const textualBlock = findElementById(siteStructure, editingElementId);
 
     const findTextualItems = (block) => {
         if (!block?.children) return [];
-        // Ищем все элементы с role title или text
         return block.children.filter(child => child.role === 'title' || child.role === 'text') || [];
     };
 
     const textualItems = findTextualItems(textualBlock);
 
-    const handleEditIconClick = (toolName, elementId, isMultiline) => {
+    const handleEditIconClick = (toolName, elementId) => {
         addActiveTool(toolName);
         setEditingSubElementId(elementId);
+    };
+
+    const handleAddBlock = () => {
+        addElement(editingElementId, selectedBlock, null);
     };
 
     if (!isOpen) return null;
@@ -87,19 +96,26 @@ const TextualEditor = ({isOpen}) => {
                                 }
                             >
                                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, width: '100%' }}>
-                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flex: 1 }}>
+                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flex: 1, minWidth: 0 }}>
                                         <IconButton
                                             size="small"
-                                            onClick={() => handleEditIconClick(toolName, item.id, !isTitle)}
+                                            onClick={() => handleEditIconClick(toolName, item.id)}
                                         >
                                             <EditIcon fontSize="small"/>
                                         </IconButton>
                                         <Typography
                                             sx={{
+                                                flex: 1,
                                                 overflow: 'hidden',
                                                 textOverflow: 'ellipsis',
-                                                whiteSpace: 'nowrap',
-                                                flex: 1
+                                                ...(isTitle ? {
+                                                    whiteSpace: 'nowrap'
+                                                } : {
+                                                    display: '-webkit-box',
+                                                    WebkitLineClamp: 2,
+                                                    WebkitBoxOrient: 'vertical',
+                                                    whiteSpace: 'normal'
+                                                })
                                             }}
                                         >
                                             {displayText}
@@ -110,6 +126,26 @@ const TextualEditor = ({isOpen}) => {
                         );
                     })}
                 </List>
+
+                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2, mt: 2 }}>
+                    <FormControl size="small" sx={{ minWidth: 150 }}>
+                        <Select
+                            value={selectedBlock}
+                            onChange={(e) => setSelectedBlock(e.target.value)}
+                            variant="outlined"
+                        >
+                            <MenuItem value="textualTitle">Заголовок</MenuItem>
+                            <MenuItem value="textualSubtitle">Подзаголовок</MenuItem>
+                            <MenuItem value="textualText">Текст</MenuItem>
+                        </Select>
+                    </FormControl>
+                    <IconButton
+                        color="primary"
+                        onClick={handleAddBlock}
+                    >
+                        <AddIcon />
+                    </IconButton>
+                </Box>
             </DialogContent>
         </Dialog>
     );

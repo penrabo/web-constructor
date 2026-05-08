@@ -1,3 +1,4 @@
+/* Общие сбросы и базовые стили */
 * {
   margin: 0;
   padding: 0;
@@ -5,294 +6,265 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #e9eef3;
+  line-height: 1.45;
+  color: #1e293b;
 }
 
-#root {
-  min-height: 100vh;
-}
-
-/* Режим редактирования */
-.edit-mode {
-  position: relative;
-  min-height: 100px;
-}
-
-.edit-mode > * {
-  position: relative;
-}
-
-.view-mode .edit-icons {
-  display: none;
-}
-
-/* Стили для элементов в режиме редактирования */
-.edit-mode [data-editable="true"] {
-  border: 1px dashed #ccc;
-  padding: 5px;
-  margin: 2px;
-}
-
-.edit-mode [data-editable="true"]:hover {
-  border-color: #1976d2;
-  background-color: rgba(25, 118, 210, 0.04);
-}
-
-/* Контейнер конструктора */
-.constructor-canvas {
-  position: relative;
-  min-height: 100px;
-  padding: 20px;
-  border: 1px dashed #eee;
-}
-
-/* Стили для секции с bricks */
-.section.bricks {
-  position: relative !important;
-  min-height: 50px;
-  padding-top: 30px;
-}
-
-/* В режиме редактирования добавляем подсветку */
-.edit-mode .section.bricks {
-  border: 2px dashed #1976d2;
-  border-radius: 4px;
-  padding: 15px;
-  margin: 10px 0;
-}
-
-/* ========== Стили для галереи-коллажа ========== */
-
-/* Секция галереи */
-.section.gallery {
-  position: relative;
-  padding: 60px 0;
-  background-color: #f5f5f5;
-}
-
-/* Контейнер сетки — коллаж */
-.gallery-inner {
-  max-width: 800px;
+/* Корневой контейнер */
+.site-root {
+  max-width: 1300px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3px;
-  background-color: #fff;
+  background-color: #e9eef3;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.03);
 }
 
-/* Элемент галереи */
-.gallery-item {
-  position: relative;
-  overflow: hidden;
-  aspect-ratio: 1 / 1;
+/* Секции */
+.section {
+  padding: 3rem 2rem;
 }
 
-/* Изображение */
-.gallery-item-image {
+/* Текстовые секции */
+.section.textual {
+  text-align: center;
+  background-color: #e9eef3;
+  border-bottom: 1px solid #dce3ec;
+}
+
+.section.textual .title {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3.title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.3px;
+}
+
+p.title {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.55;
+  max-width: 850px;
+  margin: 1.3rem auto 0;
+}
+
+/* Блоки товаров */
+.section.bricks {
+  background: #e9eef3;
+  padding: 2rem 2rem 3rem;
+}
+
+.bricks-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.bricks-item {
+  flex: 1 1 270px;
+  max-width: 310px;
+  background: #ffffff;
+  transition: all 0.2s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+  border: 1px solid #dce3ec;
+}
+
+.bricks-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 28px -10px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.item-image {
   width: 100%;
-  height: 100%;
+  height: 200px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
-/* Затемнение через псевдоэлемент */
-.gallery-item::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
-  pointer-events: none;
-  z-index: 1;
+.bricks-item h4.item-title {
+  font-size: 1.4rem;
+  font-weight: 650;
+  margin: 1rem 1.2rem 0.25rem;
+  color: #0c4a6e;
 }
 
-/* Текст поверх затемнения */
+.bricks-item p.item-subtitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #e11d48;
+  margin: 0 1.2rem 0.5rem;
+}
+
+.bricks-item p.item-content {
+  font-size: 0.9rem;
+  color: #2c3e50;
+  line-height: 1.45;
+  margin: 0 1.2rem 1.3rem;
+}
+
+/* ГАЛЕРЕЯ - всё просто как 5 копеек */
+.section.gallery {
+  background-color: #e9eef3;
+  padding: 2rem;
+}
+
+.gallery-inner {
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.gallery-item-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
 .gallery-item-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 20px;
-  color: white;
-  z-index: 2;
-  pointer-events: none;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 0.8rem 1rem;
+  text-align: left;
 }
 
-/* Заголовок */
+.gallery-item:hover .gallery-item-image {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
 .gallery-item-title {
   font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 5px;
+  font-weight: 700;
   color: white;
+  margin-bottom: 0.15rem;
 }
 
-/* Описание */
 .gallery-item-description {
-  font-size: 0.85rem;
-  color: white;
-  margin: 0;
-  line-height: 1.3;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  opacity: 0.95;
 }
 
-/* Адаптивность для планшетов */
-@media (max-width: 768px) {
-  .gallery-inner {
-    max-width: 600px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
-  }
-
-  .gallery-item-overlay {
-    padding: 12px;
-  }
-
-  .gallery-item-title {
-    font-size: 1rem;
-  }
-
-  .gallery-item-description {
-    font-size: 0.75rem;
-  }
-}
-
-/* Адаптивность для телефонов */
-@media (max-width: 480px) {
+/* Адаптив */
+@media (max-width: 800px) {
   .gallery-inner {
     max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-item-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery-inner {
     grid-template-columns: 1fr;
-    gap: 2px;
+    gap: 6px;
   }
-
-  .section.gallery {
-    padding: 40px 0 20px 0;
-  }
-
-  .gallery-item-overlay {
-    padding: 12px;
+  .gallery-item-image {
+    height: 250px;
   }
 }
 
-/* tableEditor */
-/* ========== Стили для таблицы ========== */
-
-/* Секция таблицы */
+/* Таблица */
 .section.table {
-  position: relative;
-  padding: 60px 0;
-  background-color: #ffffff;
+  background: #e9eef3;
+  padding: 2rem 2rem 3rem;
 }
 
-/* Контейнер таблицы */
 .table-inner {
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 12px;
+  max-width: 920px;
+  margin: 1.5rem auto 0;
+  background: #ffffff;
+  border: 1px solid #dce3ec;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* Заголовок таблицы */
-.table-header {
-  display: flex;
-  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
-  color: white;
-  font-weight: 600;
-  border-bottom: 2px solid #0d47a1;
-}
-
-/* Ячейка заголовка */
-.table-header-cell {
-  padding: 16px 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-/* Строка таблицы */
 .table-item {
   display: flex;
-  border-bottom: 1px solid #e0e0e0;
-  transition: background-color 0.2s ease;
+  align-items: center;
+  border-bottom: 1px solid #edf2f7;
+  background: white;
+  transition: background 0.1s;
+}
+
+.table-item:last-child {
+  border-bottom: none;
 }
 
 .table-item:hover {
-  background-color: #f5f9ff;
+  background-color: #fefce8;
 }
 
-/* Ячейка строки */
 .table-item-cell {
-  padding: 16px 20px;
+  padding: 1rem 1.2rem;
   font-size: 0.95rem;
-  color: #333;
-  line-height: 1.4;
+  color: #1e293b;
+  font-weight: 450;
 }
 
-/* Чётные строки — чуть темнее для читаемости */
-.table-item:nth-child(even) {
-  background-color: #fafafa;
-}
-
-.table-item:nth-child(even):hover {
-  background-color: #f0f5fb;
-}
-
-/* Первая колонка (название) */
-.table-item-cell:first-child,
-.table-header-cell:first-child {
-  font-weight: 500;
-  color: #1976d2;
-}
-
-/* Последняя колонка (цена) */
-.table-item-cell:last-child,
-.table-header-cell:last-child {
+.table-item-cell:first-child {
   font-weight: 600;
-  color: #2e7d32;
+  background-color: #f8fafc;
 }
 
-/* Для заголовка последней колонки — белый цвет */
-.table-header-cell:last-child {
-  color: white;
+.table-item-cell:last-child {
+  font-weight: 600;
+  color: #b91c1c;
 }
 
-/* Адаптивность для планшетов */
-@media (max-width: 768px) {
-  .table-inner {
-    max-width: 100%;
-    margin: 0 16px;
-    border-radius: 8px;
-    overflow-x: auto;
+/* Секция "Почему выбирают нас" */
+.section.textual:last-of-type {
+  background-color: #e9eef3;
+  border-top: 1px solid #dce3ec;
+  border-bottom: none;
+}
+
+@media (max-width: 700px) {
+  .section {
+    padding: 2rem 1rem;
   }
-
-  .table-header-cell,
+  .bricks-item {
+    max-width: 100%;
+  }
   .table-item-cell {
-    padding: 12px 12px;
+    padding: 0.75rem 0.8rem;
     font-size: 0.85rem;
   }
+  h3.title {
+    font-size: 1.7rem;
+  }
 }
 
-/* Адаптивность для телефонов */
-@media (max-width: 480px) {
-  .section.table {
-    padding: 40px 0;
-  }
-
-  .table-header-cell,
-  .table-item-cell {
-    padding: 10px 8px;
-    font-size: 0.75rem;
-  }
-
-  /* Перенос слов в ячейках */
-  .table-item-cell {
-    word-break: break-word;
-  }
+.bricks-item:nth-child(odd) h4.item-title {
+  color: #0f3b5c;
+}
+.bricks-item:nth-child(even) p.item-subtitle {
+  color: #b45309;
 }
