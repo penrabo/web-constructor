@@ -14,11 +14,13 @@ import {
     FormControl
 } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
+import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
 import {useStore} from '../../../store/useStore.js';
 import { findElementById } from '../../../utils/findElementById.js';
 import { moveElement } from '../../../utils/moveElement.js';
 import { addElement } from '../../../utils/addElement.js';
+import { deleteElement } from '../../../utils/deleteElement.js';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
@@ -92,10 +94,17 @@ const TextualEditor = ({isOpen}) => {
                                         >
                                             <KeyboardArrowUpIcon />
                                         </IconButton>
+
+                                        <IconButton
+                                            edge="end"
+                                            onClick={() => deleteElement(item.id)}
+                                        >
+                                            <DeleteIcon />
+                                        </IconButton>
                                     </Box>
                                 }
                             >
-                                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, width: '100%' }}>
+                                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, width: '90%' }}>
                                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flex: 1, minWidth: 0 }}>
                                         <IconButton
                                             size="small"
