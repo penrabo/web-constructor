@@ -1,0 +1,890 @@
+{
+  "type": "div",
+  "id": "xK9mQ2pL",
+  "role": "root",
+  "class": "site-root",
+  "style": null,
+  "content": null,
+  "children": [
+    {
+      "type": "section",
+      "id": "hG7jD3sL9",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "aF4rB8zX2",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Наша коллекция",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "cV6tN1wY5",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Премиальная обувь для спорта и жизни",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "rT4nB7vC1",
+      "role": "bricks",
+      "class": "section bricks",
+      "style": null,
+      "content": null,
+      "builderTool": "bricks",
+      "children": [
+        {
+          "type": "div",
+          "id": "uY7tA1zC4",
+          "role": "bricks-inner",
+          "class": "bricks-inner",
+          "style": null,
+          "content": null,
+          "children": [
+            {
+              "type": "div",
+              "id": "fV2bN9xK8",
+              "role": "bricks-item",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "yX3mG4tL6",
+                  "role": "item-image",
+                  "class": "item-image",
+                  "style": {
+                    "height": "200px",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/3d13d940ac69cc2d21172b9b5d593053.jpg",
+                  "children": []
+                },
+                {
+                  "type": "h4",
+                  "id": "oI4pH6lM3",
+                  "role": "item-title",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Nike Air Max",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "dW7qJ2rZ9",
+                  "role": "item-subtitle",
+                  "class": "item-subtitle",
+                  "style": null,
+                  "content": "Максимальная амортизация",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "sU5nA8cE1",
+                  "role": "item-content",
+                  "class": "item-content",
+                  "style": null,
+                  "content": "Легендарная модель с видимой подушкой Air. Идеальны для бега и повседневной носки. Дышащий верх и усиленная поддержка стопы.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "hJ8kP2vF7",
+              "role": "bricks-item",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "pL2oU9dA4",
+                  "role": "item-image",
+                  "class": "item-image",
+                  "style": {
+                    "height": "200px",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/25a097901b6f061965956a34b92d93b3.jpg",
+                  "children": []
+                },
+                {
+                  "type": "h4",
+                  "id": "eB1zL5rX0",
+                  "role": "item-title",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Adidas Ultraboost",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "qW9cY3nH7",
+                  "role": "item-subtitle",
+                  "class": "item-subtitle",
+                  "style": null,
+                  "content": "Энергия возврата",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "aR6tM7eK2",
+                  "role": "item-content",
+                  "class": "item-content",
+                  "style": null,
+                  "content": "Инновационная подошва Boost возвращает энергию при каждом шаге. Превосходный комфорт для долгих пробежек и активного образа жизни.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "vC5iG8sB3",
+              "role": "bricks-item",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "zW1lB6cG9",
+                  "role": "item-image",
+                  "class": "item-image",
+                  "style": {
+                    "height": "200px",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/99cdaa6a94aba57e1bad33df30b0ed13.jpg",
+                  "children": []
+                },
+                {
+                  "type": "h4",
+                  "id": "mN4fD1wY6",
+                  "role": "item-title",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "New Balance 574",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "tR9xE0zH5",
+                  "role": "item-subtitle",
+                  "class": "item-subtitle",
+                  "style": null,
+                  "content": "Классический стиль",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "kU7qJ3pA8",
+                  "role": "item-content",
+                  "class": "item-content",
+                  "style": null,
+                  "content": "Культовая модель с замшевым верхом. Отличается прочностью, удобством и узнаваемым дизайном. Для тех, кто ценит вневременную классику.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "yS8vM4tK0",
+              "role": "bricks-item",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "jZ3vR1eM7",
+                  "role": "item-image",
+                  "class": "item-image",
+                  "style": {
+                    "height": "200px",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/50026a260798b2f109e4435a3cb32715.jpg",
+                  "children": []
+                },
+                {
+                  "type": "h4",
+                  "id": "dX2nC7rE5",
+                  "role": "item-title",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Asics Gel-Kayano",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "gQ4bP9wF1",
+                  "role": "item-subtitle",
+                  "class": "item-subtitle",
+                  "style": null,
+                  "content": "Стабильность и поддержка",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "oA6yL2uH8",
+                  "role": "item-content",
+                  "class": "item-content",
+                  "style": null,
+                  "content": "Технология Gel снижает ударные нагрузки. Рекомендованы для бега по асфальту и длительных тренировок. Защита суставов на максимуме.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "rF5cB8iX2",
+              "role": "bricks-item",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "eW6mO0xF9",
+                  "role": "item-image",
+                  "class": "item-image",
+                  "style": {
+                    "height": "200px",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/a4cbe1f9db014aa389b98af1a0e50d27.jpg",
+                  "children": []
+                },
+                {
+                  "type": "h4",
+                  "id": "nL9dG4pU1",
+                  "role": "item-title",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Puma RS-X",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "tH2wJ7eA6",
+                  "role": "item-subtitle",
+                  "class": "item-subtitle",
+                  "style": null,
+                  "content": "Агрессивный дизайн",
+                  "children": []
+                },
+                {
+                  "type": "p",
+                  "id": "vY8qK3sZ4",
+                  "role": "item-content",
+                  "class": "item-content",
+                  "style": null,
+                  "content": "Футуристический образ и максимальный комфорт. Подойдут для повседневной носки и выделят вас из толпы. Лёгкие и прочные материалы.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "bD1pL9zW5",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "eQ8cM2vR7",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Галерея хитов",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "gS3nX6tK4",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Лучшие модели в каждом кадре",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "bM1pK6yR3",
+      "role": "gallery",
+      "class": "section gallery",
+      "style": null,
+      "content": null,
+      "builderTool": "gallery",
+      "children": [
+        {
+          "type": "div",
+          "id": "cZ7vT2aH4",
+          "role": "gallery-inner",
+          "class": "gallery-inner",
+          "style": null,
+          "content": null,
+          "children": [
+            {
+              "type": "div",
+              "id": "dX5lN8eG0",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "fJ3rA9sU2",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/3d13d940ac69cc2d21172b9b5d593053.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "gQ6bD4pH7",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "hL8uV1cM5",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Nike Air Max",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "iW4zF6tY2",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Максимальная амортизация",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "jY1aO7eK9",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "kU8rN2bP3",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/25a097901b6f061965956a34b92d93b3.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "lC5hX9yG6",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "mE7vB3wS0",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Adidas Ultraboost",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "nZ2pR4cJ1",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Энергия возврата",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "oA6dF8qU4",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "pX1lT7kY5",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/99cdaa6a94aba57e1bad33df30b0ed13.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "qG9mB2eR8",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "rV3wH6uZ0",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "New Balance 574",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "sD5cJ4nY7",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Классический стиль",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "tI4aK9xO2",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "uF8sL1vQ7",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/50026a260798b2f109e4435a3cb32715.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "vP2zE5yS3",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "wH6dG0tR9",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Asics Gel-Kayano",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "xN7aC1qM4",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Стабильность и поддержка",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "yK9bW3uN8",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "zR4mE2fV5",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/a4cbe1f9db014aa389b98af1a0e50d27.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "aB7lH8jU1",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "bC6dP4wK2",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Puma RS-X",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "cT2zA5oY9",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Агрессивный дизайн",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "dV9cX6gL4",
+              "role": "gallery-item",
+              "class": "gallery-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "eW3rM1nB7",
+                  "role": "gallery-item-image",
+                  "class": "gallery-item-image",
+                  "style": {
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                  },
+                  "content": null,
+                  "backgroundImage": "http://localhost:5000/gallery/3d13d940ac69cc2d21172b9b5d593053.jpg",
+                  "children": [
+                    {
+                      "type": "div",
+                      "id": "fH8qJ5uT0",
+                      "role": "gallery-item-overlay",
+                      "class": "gallery-item-overlay",
+                      "style": null,
+                      "content": null,
+                      "children": [
+                        {
+                          "type": "h3",
+                          "id": "gI2yE6rK5",
+                          "role": "gallery-item-title",
+                          "class": "gallery-item-title",
+                          "style": null,
+                          "content": "Limited Edition",
+                          "children": []
+                        },
+                        {
+                          "type": "p",
+                          "id": "hL7sF9xZ1",
+                          "role": "gallery-item-description",
+                          "class": "gallery-item-description",
+                          "style": null,
+                          "content": "Эксклюзивная коллекция",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "jK5mN2rY9",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "lX8qT3vZ1",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Прайс-лист",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "nF2wB6cA4",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Актуальные цены на топ-модели",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "iM4aO8vY6",
+      "role": "table",
+      "class": "section table",
+      "style": null,
+      "content": null,
+      "builderTool": "table",
+      "children": [
+        {
+          "type": "div",
+          "id": "nH9fT4vK1",
+          "role": "table-inner",
+          "class": "table-inner",
+          "style": null,
+          "content": null,
+          "children": [
+            {
+              "type": "div",
+              "id": "oV2gU7wP5",
+              "role": "table-item",
+              "class": "table-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "pY3hJ8xR6",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "20%" },
+                  "content": "Товар 1",
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "id": "qA1iK5yN4",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "65%" },
+                  "content": "Описание товара 1",
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "id": "rZ4jM9zC7",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "15%" },
+                  "content": "1000 ₽",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "sW6kL3vE8",
+              "role": "table-item",
+              "class": "table-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "tN7oA2bF0",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "20%" },
+                  "content": "Товар 2",
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "id": "uB5pD8cU9",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "65%" },
+                  "content": "Описание товара 2",
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "id": "vC2qE1dX3",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "15%" },
+                  "content": "2000 ₽",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "wY9rF4eR7",
+              "role": "table-item",
+              "class": "table-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "div",
+                  "id": "xG3sH6fV1",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "20%" },
+                  "content": "Товар 3",
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "id": "yI0tJ9gC4",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "65%" },
+                  "content": "Описание товара 3",
+                  "children": []
+                },
+                {
+                  "type": "div",
+                  "id": "zD8uK5hB2",
+                  "role": "table-item-cell",
+                  "class": "table-item-cell",
+                  "style": { "width": "15%" },
+                  "content": "3000 ₽",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "pT7rH2wM9",
+      "role": "textual",
+      "class": "section textual",
+      "style": null,
+      "content": null,
+      "builderTool": "textual",
+      "children": [
+        {
+          "type": "h3",
+          "id": "uV5dL4cN8",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Почему выбирают нас",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "xG2fQ6sZ3",
+          "role": "title",
+          "class": "title",
+          "style": null,
+          "content": "Качество, проверенное временем",
+          "children": []
+        },
+        {
+          "type": "p",
+          "id": "yH9kR1tM4",
+          "role": "text",
+          "class": "text",
+          "style": null,
+          "content": "Мы предлагаем только оригинальную продукцию от ведущих мировых брендов. Каждая пара проходит многоступенчатый контроль качества, а наши консультанты помогут подобрать идеальный размер и модель под любой стиль жизни. Доставка по всей стране и примерка перед покупкой — забота о вашем комфорте.",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+/* Общие стили для секции */
+.section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Стили для фона сайта */
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Стили для блока bricks */
+.bricks .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.bricks .subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.bricks-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.bricks-item {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.bricks-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.bricks-item .item-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.bricks-item .item-subtitle {
+    font-size: 1rem;
+    color: #95a5a6;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.bricks-item .item-text {
+    font-size: 1rem;
+    color: #34495e;
+    line-height: 1.7;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 15px;
+    }
+
+    .bricks .title {
+        font-size: 2rem;
+    }
+
+    .bricks .subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .bricks-item {
+        min-width: 100%;
+        padding: 25px;
+    }
+
+    .bricks-inner {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 30px 10px;
+    }
+
+    .bricks .title {
+        font-size: 1.7rem;
+    }
+
+    .bricks-item {
+        padding: 20px;
+    }
+}

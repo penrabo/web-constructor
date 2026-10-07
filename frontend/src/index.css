@@ -1,0 +1,270 @@
+/* Общие сбросы и базовые стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #e9eef3;
+  line-height: 1.45;
+  color: #1e293b;
+}
+
+/* Корневой контейнер */
+.site-root {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #e9eef3;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.03);
+}
+
+/* Секции */
+.section {
+  padding: 3rem 2rem;
+}
+
+/* Текстовые секции */
+.section.textual {
+  text-align: center;
+  background-color: #e9eef3;
+  border-bottom: 1px solid #dce3ec;
+}
+
+.section.textual .title {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3.title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.3px;
+}
+
+p.title {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.55;
+  max-width: 850px;
+  margin: 1.3rem auto 0;
+}
+
+/* Блоки товаров */
+.section.bricks {
+  background: #e9eef3;
+  padding: 2rem 2rem 3rem;
+}
+
+.bricks-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.bricks-item {
+  flex: 1 1 270px;
+  max-width: 310px;
+  background: #ffffff;
+  transition: all 0.2s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+  border: 1px solid #dce3ec;
+}
+
+.bricks-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 28px -10px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.item-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bricks-item h4.item-title {
+  font-size: 1.4rem;
+  font-weight: 650;
+  margin: 1rem 1.2rem 0.25rem;
+  color: #0c4a6e;
+}
+
+.bricks-item p.item-subtitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #e11d48;
+  margin: 0 1.2rem 0.5rem;
+}
+
+.bricks-item p.item-content {
+  font-size: 0.9rem;
+  color: #2c3e50;
+  line-height: 1.45;
+  margin: 0 1.2rem 1.3rem;
+}
+
+/* ГАЛЕРЕЯ - всё просто как 5 копеек */
+.section.gallery {
+  background-color: #e9eef3;
+  padding: 2rem;
+}
+
+.gallery-inner {
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.gallery-item-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.gallery-item-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 0.8rem 1rem;
+  text-align: left;
+}
+
+.gallery-item:hover .gallery-item-image {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
+.gallery-item-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.15rem;
+}
+
+.gallery-item-description {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  opacity: 0.95;
+}
+
+/* Адаптив */
+@media (max-width: 800px) {
+  .gallery-inner {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-item-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery-inner {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .gallery-item-image {
+    height: 250px;
+  }
+}
+
+/* Таблица */
+.section.table {
+  background: #e9eef3;
+  padding: 2rem 2rem 3rem;
+}
+
+.table-inner {
+  max-width: 920px;
+  margin: 1.5rem auto 0;
+  background: #ffffff;
+  border: 1px solid #dce3ec;
+  overflow: hidden;
+}
+
+.table-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #edf2f7;
+  background: white;
+  transition: background 0.1s;
+}
+
+.table-item:last-child {
+  border-bottom: none;
+}
+
+.table-item:hover {
+  background-color: #fefce8;
+}
+
+.table-item-cell {
+  padding: 1rem 1.2rem;
+  font-size: 0.95rem;
+  color: #1e293b;
+  font-weight: 450;
+}
+
+.table-item-cell:first-child {
+  font-weight: 600;
+  background-color: #f8fafc;
+}
+
+.table-item-cell:last-child {
+  font-weight: 600;
+  color: #b91c1c;
+}
+
+/* Секция "Почему выбирают нас" */
+.section.textual:last-of-type {
+  background-color: #e9eef3;
+  border-top: 1px solid #dce3ec;
+  border-bottom: none;
+}
+
+@media (max-width: 700px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+  .bricks-item {
+    max-width: 100%;
+  }
+  .table-item-cell {
+    padding: 0.75rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  h3.title {
+    font-size: 1.7rem;
+  }
+}
+
+.bricks-item:nth-child(odd) h4.item-title {
+  color: #0f3b5c;
+}
+.bricks-item:nth-child(even) p.item-subtitle {
+  color: #b45309;
+}

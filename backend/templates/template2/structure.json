@@ -1,0 +1,189 @@
+{
+  "type": "div",
+  "id": "root8char",
+  "class": "page-container",
+  "style": null,
+  "content": null,
+  "children": [
+    {
+      "type": "section",
+      "id": "brcks001",
+      "class": "section bricks",
+      "style": null,
+      "content": null,
+      "builderTool": "bricks",
+      "children": [
+        {
+          "type": "h2",
+          "id": "title001",
+          "class": "section-title",
+          "style": null,
+          "content": "Первый блок преимуществ",
+          "children": []
+        },
+        {
+          "type": "div",
+          "id": "inner001",
+          "class": "bricks-inner",
+          "style": null,
+          "content": null,
+          "children": [
+            {
+              "type": "div",
+              "id": "item001a",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl001a",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Надежность 1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "item001b",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl001b",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Скорость 1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "item001c",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl001c",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Качество 1",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "brcks002",
+      "class": "section bricks",
+      "style": null,
+      "content": null,
+      "builderTool": "bricks",
+      "children": [
+        {
+          "type": "h2",
+          "id": "title002",
+          "class": "section-title",
+          "style": null,
+          "content": "Второй блок услуг",
+          "children": []
+        },
+        {
+          "type": "div",
+          "id": "inner002",
+          "class": "bricks-inner",
+          "style": null,
+          "content": null,
+          "children": [
+            {
+              "type": "div",
+              "id": "item002a",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl002a",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Дизайн 2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "item002b",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl002b",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Разработка 2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "item002c",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl002c",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Поддержка 2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "id": "item002d",
+              "class": "bricks-item",
+              "style": null,
+              "content": null,
+              "editable": true,
+              "children": [
+                {
+                  "type": "h4",
+                  "id": "ttl002d",
+                  "class": "item-title",
+                  "style": null,
+                  "content": "Аналитика 2",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
