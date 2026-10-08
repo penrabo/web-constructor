@@ -8,7 +8,7 @@ export const api = {
         return await response.json();
     },
     async saveSite(name, structure) {
-        const response = await fetch('http://localhost:5000/api/save', {
+        const response = await fetch('http://localhost:5000/api/save/3', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, structure })

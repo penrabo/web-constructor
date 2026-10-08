@@ -6,6 +6,7 @@ const cors = require("cors");
 const path = require("path");
 const { promises: fs } = require("fs");
 const pool = require("../../db");
+const createSiteRoutes = require('./routes/siteRoutes');
 
 function createServer() {
     const app = express();
@@ -58,24 +59,8 @@ function createServer() {
         }
     });
 
-// Сохранение сайта (всегда id=1)
-    app.post('/api/save', async (req, res) => {
-        const { name, structure } = req.body;
-        try {
-            const result = await pool.query(
-                `INSERT INTO sites (id, name, structure)
-             VALUES (1, $1, $2)
-             ON CONFLICT (id) DO UPDATE
-             SET name = $1, structure = $2
-             RETURNING id`,
-                [name, structure]
-            );
-            res.json({ success: true, id: result.rows[0].id });
-        } catch (error) {
-            console.error(error);
-            res.status(500).json({ error: 'Ошибка сохранения' });
-        }
-    });
+// Сохранение сайта
+    app.use('/api/save', createSiteRoutes());
 
     // Загрузка сайта по id
     app.get('/api/site/:id', async (req, res) => {
